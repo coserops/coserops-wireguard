@@ -1,0 +1,2 @@
+paramiko>=3.4
+qrcode[pil]>=7.4
