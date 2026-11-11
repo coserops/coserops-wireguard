@@ -39,4 +39,6 @@ sudo systemctl restart wg-quick@wg0
 sudo cat /etc/wireguard/wg0.conf 会把 PrivateKey 显示在屏幕上，截图或贴给别人之前先把它打码。
 重启前先看 sudo journalctl -u wg-quick@wg0 -n 20，如果上次失败了，先弄清原因再重启，避免像之前那样反复失败。
 
+
+
 ```
