@@ -4,6 +4,7 @@
 
 sudo systemctl start wg-quick@wg0      # 启动
 sudo systemctl stop wg-quick@wg0       # 停止
+sudo systemctl status wg-quick@wg0.service
 sudo systemctl restart wg-quick@wg0    # 重启（断开所有客户端）
 sudo systemctl enable wg-quick@wg0     # 开机自启（目前是 disabled）
 systemctl is-active wg-quick@wg0       # 只看是否运行
